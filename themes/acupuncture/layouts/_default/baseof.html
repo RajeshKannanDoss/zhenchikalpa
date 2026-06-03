@@ -22,7 +22,7 @@
 <!-- this is for google analytics-->
 
 {{ template "_internal/google_analytics.html" . }}
-<!-- this is for google search engine 
+<!-- this is for google search engine -->
 
 
 <script type="application/ld+json">
@@ -38,81 +38,8 @@
  },
  "telephone":"{{ .Site.Params.phone }}"
 }
-</script> -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://zhenchikalpa.com/#medicalclinic",
-  "name": "{{ .Site.Params.clinicName }}",
-  "description": "Experience natural healing and pain cure through our authentic acupuncture treatments. We restore balance and enhance well-being in Chennai.",
-  "url": "https://zhenchikalpa.com",
-  "telephone": "+919047353999",
-  "email": "clinic@zhenchikalpa.com",
-  "priceRange": "₹₹",
-  "image": "https://zhenchikalpa.com/images/clinic-logo.jpg",
-  "address":{
-   "@type":"PostalAddress",
-   "addressLocality":"{{ .Site.Params.clinicCity }}",
-   "addressRegion":"{{ .Site.Params.clinicState }}",
-   "addressCountry":"{{ .Site.Params.clinicCountry }}"
- },
- "telephone":"{{ .Site.Params.phone }}"
+</script> 
 
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "12.9789",
-    "latitude": "80.2208"
-  },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        
-        "Thursday",
-        "Friday",
-        "Sunday"
-      ],
-      "opens": "03:00",
-      "closes": "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Wednesday, Saturday",
-      "opens": "10:00",
-      "closes": "13:00"
-    }
-  ],
-  "sameAs": [
-    "https://www.instagram.com/zhenchikalpa",
-    "https://www.facebook.com/zhenchikalpa"
-  ],
-  "medicalSpecialty": [
-    "https://schema.org/PainManagement",
-    "https://schema.org/AddictionTreatment",
-    "https://schema.org/Wellness"
-  ],
-  "availableService": [
-    {
-      "@type": "MedicalProcedure",
-      "name": "Acupuncture Therapy",
-      "description": "Traditional acupuncture for pain cure and energy balancing."
-    },
-    {
-      "@type": "MedicalProcedure",
-      "name": "Cupping Therapy",
-      "description": "Myofascial decompression to relieve muscle tension."
-    },
-    {
-      "@type": "MedicalProcedure",
-      "name": "Moxibustion",
-      "description": "Heat therapy to stimulate acupuncture points."
-    }
-  ]
-}
-</script>
 </head>
 
 <body>
