@@ -1,0 +1,44 @@
+baseURL = "https://zhenchikalpaacupuncture.com/"
+languageCode = "en-us"
+title = "Zhenchi Kalpa Acupuncture Clinic"
+theme = 'acupuncture'
+
+
+
+[params]
+clinicName = "Zhenchi Kalpa Acupuncture Clinic"
+clinicAddress = "25/4, First floor, Car Street"
+clinicCity = "Maduranthagam"
+clinicState = "Tamil Nadu"
+clinicCountry = "India"
+phone = "+9190473 53999"
+whatsapp = "+919047353999"
+email = "info@zhenchikalpa.com"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Services"
+url = "/services/"
+weight = 2
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 4
+
+
+[pagination]
+pagerSize = 6
+
+googleAnalytics = "G-XDQLFKF0CN"
+
+enableRobotsTXT = true

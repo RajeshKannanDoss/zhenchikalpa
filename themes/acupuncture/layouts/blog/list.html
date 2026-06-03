@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<section class="blog-section">
+
+
+<div class="container">
+
+    <h1 class="page-title">{{ .Title }}</h1>
+
+    {{ $paginator := .Paginate .Pages }}
+
+    <div class="blog-grid">
+
+        {{ range $paginator.Pages }}
+
+        <article class="blog-card">
+
+            <h2>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </h2>
+
+            <p class="blog-meta">
+                {{ .Date.Format "January 2, 2006" }}
+            </p>
+
+            <p>
+                {{ .Summary | truncate 180 }}
+            </p>
+
+            <div class="service-card">
+                <h3>Acupuncture Therapy</h3>
+                <p>Personalized acupuncture treatments.</p>
+                <a href="/services/acupuncture/">Learn More →</a>
+            </div>
+
+        </article>
+
+        {{ end }}
+
+    </div>
+
+    <div class="pagination">
+
+        {{ template "_internal/pagination.html" . }}
+
+    </div>
+
+</div>
+</section>
+
+{{ end }}
+
+
