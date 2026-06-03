@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Wellness on Zhenchi Kalpa Acupuncture Clinic</title>
-		<link>http://localhost:1313/tags/wellness/</link>
+		<link>https://zhenchikalpaacupuncture.com/tags/wellness/</link>
 		<description>Recent content in Wellness on Zhenchi Kalpa Acupuncture Clinic</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/wellness/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://zhenchikalpaacupuncture.com/tags/wellness/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title></title>
-				<link>http://localhost:1313/services/</link>
+				<link>https://zhenchikalpaacupuncture.com/services/</link>
 				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/services/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/services/</guid>
 				<description>&lt;h1 id=&#34;our-services&#34;&gt;Our Services&lt;/h1&gt;&#xA;&lt;h2 id=&#34;acupuncture-therapy&#34;&gt;Acupuncture Therapy&lt;/h2&gt;&#xA;&lt;p&gt;Personalized acupuncture treatments.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cupping-therapy&#34;&gt;Cupping Therapy&lt;/h2&gt;&#xA;&lt;p&gt;Promotes circulation and healing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pain-management&#34;&gt;Pain Management&lt;/h2&gt;&#xA;&lt;p&gt;Back pain, neck pain and joint pain.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stress-relief&#34;&gt;Stress Relief&lt;/h2&gt;&#xA;&lt;p&gt;Reduce stress naturally.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Benefits of Acupuncture: A Natural Path to Better Health</title>
-				<link>http://localhost:1313/blog/benefits-of-acupuncture/</link>
+				<link>https://zhenchikalpaacupuncture.com/blog/benefits-of-acupuncture/</link>
 				<pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/benefits-of-acupuncture/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/blog/benefits-of-acupuncture/</guid>
 				<description>&lt;p&gt;Acupuncture is a time-tested healing practice&amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;acupuncture&lt;/li&gt;&#xA;&lt;li&gt;wellness&lt;/li&gt;&#xA;&lt;li&gt;natural healing&lt;/li&gt;&#xA;&lt;li&gt;pain relief&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Acupuncture is a time-tested healing practice that has been used for thousands of years to support physical, emotional, and mental well-being. Originating from Traditional Chinese Medicine (TCM), acupuncture involves the gentle insertion of very fine needles into specific points on the body to restore balance and promote natural healing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-acupuncture&#34;&gt;What Is Acupuncture?&lt;/h2&gt;&#xA;&lt;p&gt;According to Traditional Chinese Medicine, the body contains channels of energy known as meridians. When the flow of energy, or &lt;em&gt;Qi&lt;/em&gt;, becomes blocked or unbalanced, various health issues can arise. Acupuncture helps restore the smooth flow of energy, encouraging the body&amp;rsquo;s natural healing processes.&lt;/p&gt;</description>
 			</item>
 	</channel>

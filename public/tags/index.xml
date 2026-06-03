@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Zhenchi Kalpa Acupuncture Clinic</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://zhenchikalpaacupuncture.com/tags/</link>
 		<description>Recent content in Tags on Zhenchi Kalpa Acupuncture Clinic</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,54 +12,54 @@
 		
 			<lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://zhenchikalpaacupuncture.com/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Acupuncture</title>
-				<link>http://localhost:1313/tags/acupuncture/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/acupuncture/</link>
 				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/acupuncture/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/acupuncture/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>StressS</title>
-				<link>http://localhost:1313/tags/stresss/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/stresss/</link>
 				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/stresss/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/stresss/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Wellness</title>
-				<link>http://localhost:1313/tags/wellness/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/wellness/</link>
 				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/wellness/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/wellness/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pain Relief</title>
-				<link>http://localhost:1313/tags/pain-relief/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/pain-relief/</link>
 				<pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/pain-relief/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/pain-relief/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Blue</title>
-				<link>http://localhost:1313/tags/blue/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/blue/</link>
 				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-				<guid>http://localhost:1313/tags/blue/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/blue/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Green</title>
-				<link>http://localhost:1313/tags/green/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/green/</link>
 				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-				<guid>http://localhost:1313/tags/green/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/green/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Red</title>
-				<link>http://localhost:1313/tags/red/</link>
+				<link>https://zhenchikalpaacupuncture.com/tags/red/</link>
 				<pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-				<guid>http://localhost:1313/tags/red/</guid>
+				<guid>https://zhenchikalpaacupuncture.com/tags/red/</guid>
 				<description></description>
 			</item>
 	</channel>
