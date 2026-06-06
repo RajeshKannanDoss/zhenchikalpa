@@ -466,3 +466,103 @@ main {
     display:block;
     margin:0 auto 30px;
 }
+
+/* ==========================================
+   MOBILE RESPONSIVE FIXES
+   Zhenchi Kalpa Acupuncture Clinic
+   ========================================== */
+
+/* Prevent horizontal scrolling */
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* Mobile Header */
+@media (max-width: 768px) {
+
+    .header-flex {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo a {
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .nav-menu li {
+        margin: 0;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 6px 8px;
+    }
+
+    /* Hero Section */
+
+    .hero {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+
+    .hero-overlay {
+        width: 100%;
+        max-width: 100%;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .tagline {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    /* Blog cards */
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact page */
+    .contact-page {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    .footer-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* WhatsApp button */
+    .whatsapp-float {
+        right: 10px;
+        bottom: 10px;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+}
