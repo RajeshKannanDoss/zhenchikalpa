@@ -1,11 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Zhenchi Kalpa Acupuncture Clinic</title><link>https://zhenchikalpa.com/blog/</link><description>Recent content in Blog on Zhenchi Kalpa Acupuncture Clinic</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://zhenchikalpa.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Benefits of Acupuncture: A Natural Path to Better Health</title><link>https://zhenchikalpa.com/blog/benefits-of-acupuncture/</link><pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate><guid>https://zhenchikalpa.com/blog/benefits-of-acupuncture/</guid><description>&lt;p&gt;Acupuncture is a time-tested healing practice&amp;hellip;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;acupuncture&lt;/li&gt;
-&lt;li&gt;wellness&lt;/li&gt;
-&lt;li&gt;natural healing&lt;/li&gt;
-&lt;li&gt;pain relief&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;Acupuncture is a time-tested healing practice that has been used for thousands of years to support physical, emotional, and mental well-being. Originating from Traditional Chinese Medicine (TCM), acupuncture involves the gentle insertion of very fine needles into specific points on the body to restore balance and promote natural healing.&lt;/p&gt;
-&lt;h2 id="what-is-acupuncture"&gt;What Is Acupuncture?&lt;/h2&gt;
-&lt;p&gt;According to Traditional Chinese Medicine, the body contains channels of energy known as meridians. When the flow of energy, or &lt;em&gt;Qi&lt;/em&gt;, becomes blocked or unbalanced, various health issues can arise. Acupuncture helps restore the smooth flow of energy, encouraging the body&amp;rsquo;s natural healing processes.&lt;/p&gt;</description></item><item><title/><link>https://zhenchikalpa.com/blog/cupping-benefits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zhenchikalpa.com/blog/cupping-benefits/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blog on Zhenchi Kalpa Acupuncture Clinic</title>
+		<link>http://localhost:1313/blog/</link>
+		<description>Recent content in Blog on Zhenchi Kalpa Acupuncture Clinic</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cupping Benefits</title>
+				<link>http://localhost:1313/blog/cupping-benefits/</link>
+				<pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/cupping-benefits/</guid>
+				<description>&lt;p&gt;Cupping therapy is a traditional healing technique used to improve circulation and relieve muscle tension.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Benefits of Acupuncture</title>
+				<link>http://localhost:1313/blog/benefits-of-acupuncture/</link>
+				<pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/benefits-of-acupuncture/</guid>
+				<description>&lt;p&gt;Acupuncture is a time-tested healing practice that has been used for thousands of years to support physical, emotional, and mental well-being.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

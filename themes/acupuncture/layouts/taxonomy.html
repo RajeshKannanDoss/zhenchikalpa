@@ -1,7 +1,47 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ end }}
+
+<section class="taxonomy-page">
+
+    <div class="container">
+
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Pages }}
+
+            <div class="blog-grid">
+
+                {{ range .Pages }}
+
+                <article class="blog-card">
+
+                    <h2>
+                        <a href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                    </h2>
+
+                    <p class="blog-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </p>
+
+                    <p>
+                        {{ .Summary }}
+                    </p>
+
+                </article>
+
+                {{ end }}
+
+            </div>
+
+        {{ else }}
+
+            <p>No articles found.</p>
+
+        {{ end }}
+
+    </div>
+
+</section>
+
 {{ end }}

@@ -42,3 +42,8 @@ pagerSize = 6
 googleAnalytics = "G-XDQLFKF0CN"
 
 enableRobotsTXT = true
+
+
+[taxonomies]
+tag = "tags"
+category = "categories"

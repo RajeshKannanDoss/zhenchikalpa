@@ -1,0 +1,93 @@
+{{ define "main" }}
+
+<nav class="breadcrumbs">
+
+
+<a href="/">Home</a>
+
+/
+
+<a href="/blog/">Blog</a>
+
+/
+
+{{ .Title }}
+
+
+</nav>
+
+<article class="blog-post">
+
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Resources.GetMatch "cover.*" }}
+
+    {{ $hero := .Resize "1200x" }}
+
+    <div class="post-featured-image">
+
+        <img
+            src="{{ $hero.RelPermalink }}"
+            alt="{{ $.Title }}">
+
+    </div>
+
+{{ end }}
+
+<p class="blog-meta">
+
+    {{ .Date.Format "January 2, 2006" }}
+
+    ·
+
+    {{ .ReadingTime }} min read
+
+</p>
+
+{{ if gt .WordCount 500 }}
+
+<div class="toc">
+
+    <h3>Contents</h3>
+
+    {{ .TableOfContents }}
+
+</div>
+
+{{ end }}
+
+{{ .Content }}
+
+
+</article>
+
+<hr>
+
+<h3>Related Articles</h3>
+
+<ul class="related-posts">
+
+{{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+
+
+{{ if ne .Permalink $.Permalink }}
+
+<li>
+
+    <a href="{{ .RelPermalink }}">
+
+        {{ .Title }}
+
+    </a>
+
+</li>
+
+{{ end }}
+
+
+{{ end }}
+
+</ul>
+
+{{ end }}

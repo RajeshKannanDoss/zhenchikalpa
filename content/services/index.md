@@ -2,7 +2,7 @@
 title = ""
 date = 2026-05-31
 description = "Acupuncture pain relief, stress reduction, improved sleep, and overall wellness."
-tags = ["acupuncture", "wellness", "stressS"]
+tags = ["acupuncture", "wellness", "stress"]
 +++
 
 # Our Services
@@ -15,7 +15,7 @@ Personalized acupuncture treatments.
 
 Promotes circulation and healing.
 
-## Pain Management
+## Pain Cure/ NO Management
 
 Back pain, neck pain and joint pain.
 
