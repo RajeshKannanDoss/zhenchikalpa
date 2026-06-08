@@ -7,6 +7,11 @@ designation: "Chief Acupuncture Practitioner"
 
 experience: 8
 
+education:
+  degree: "Master of Science in Acupuncture"
+  institution: "Tamil Nadu Physical Education and Sports University"
+  institution_url: "https://www.tnpesu.org"
+
 specialties:
 
 - Acupuncture
@@ -41,9 +46,6 @@ Areas of focus.
 
 Your approach to diagnosis and treatment.
 
-## Education & Training
-
-Master of Science in Acupuncture from Tamil Nadu Physical Education and Sports University.
 
 ## Conditions Commonly Treated
 

@@ -21,6 +21,16 @@
     <p>Experience: {{ . }} years</p>
     {{ end }}
 
+    <h2>Education & Training</h2>
+
+<p>
+    {{ .Params.education.degree }}
+    from
+    <a href="{{ .Params.education.institution_url }}" target="_blank">
+        {{ .Params.education.institution }}
+    </a>
+</p>
+
     {{ with .Params.specialties }}
     <p>
         <strong>Specialties:</strong>
@@ -36,6 +46,8 @@
     {{ end }}
 
 </div>
+
+
 
 <article>
     {{ .Content }}

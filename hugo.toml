@@ -45,6 +45,9 @@ weight = 5
 [pagination]
 pagerSize = 6
 
+
+
+
 googleAnalytics = "G-XDQLFKF0CN"
 
 enableRobotsTXT = true
