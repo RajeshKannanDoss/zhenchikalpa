@@ -47,6 +47,34 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/specialties/acupuncture/</loc>
+  </url><url>
     <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/digestive-disorders/</loc>
+  </url><url>
+    <loc>http://localhost:1313/languages/english/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/fertility-support/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/herbal-medicine/</loc>
+  </url><url>
+    <loc>http://localhost:1313/languages/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/moxibustion/</loc>
+  </url><url>
+    <loc>http://localhost:1313/practitioners/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/pain-management/</loc>
+  </url><url>
+    <loc>http://localhost:1313/practitioners/rajesh-kannan-doss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/tai-chi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/languages/tamil/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specialties/womens-health/</loc>
   </url>
 </urlset>

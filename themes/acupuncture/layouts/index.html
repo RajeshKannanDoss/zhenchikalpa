@@ -45,6 +45,21 @@
 
         <h2>Meet Your Practitioner</h2>
 
+        
+
+{{ range first 3 (where site.RegularPages "Section" "practitioners") }}
+
+<div class="practitioner-card">
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.designation }}</p>
+
+    <a href="{{ .RelPermalink }}">
+        View Profile
+    </a>
+</div>
+
+{{ end }}
+
         <p>
             At Zhenchi Kalpa Acupuncture Clinic, we believe in treating the whole person, not just symptoms.
         </p>

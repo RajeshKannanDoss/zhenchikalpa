@@ -1,0 +1,47 @@
+
+{{ define "main" }}
+
+{{ partial "practitioner-schema.html" . }}
+
+
+</div>
+
+<div class="container">
+
+
+<h1>{{ .Title }}</h1>
+
+<div class="practitioner-meta">
+
+    {{ with .Params.designation }}
+    <p><strong>{{ . }}</strong></p>
+    {{ end }}
+
+    {{ with .Params.experience }}
+    <p>Experience: {{ . }} years</p>
+    {{ end }}
+
+    {{ with .Params.specialties }}
+    <p>
+        <strong>Specialties:</strong>
+        {{ delimit . ", " }}
+    </p>
+    {{ end }}
+
+    {{ with .Params.languages }}
+    <p>
+        <strong>Languages:</strong>
+        {{ delimit . ", " }}
+    </p>
+    {{ end }}
+
+</div>
+
+<article>
+    {{ .Content }}
+</article>
+
+
+</div>
+
+{{ end }}
