@@ -43,7 +43,7 @@ Your approach to diagnosis and treatment.
 
 ## Education & Training
 
-Master of Acupuncture from Tamil Nadu Physical Education and Sports University.
+Master of Science in Acupuncture from Tamil Nadu Physical Education and Sports University.
 
 ## Conditions Commonly Treated
 
