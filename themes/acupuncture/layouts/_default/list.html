@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
 <head>
+{{ if .IsHome }}
+<title>Acupuncture & Holistic Healing | Zhenchi Kalpa</title>
+{{ else }}
+<title>{{ .Title }} | Zhenchi Kalpa</title>
+{{ end }}
   {{ partial "head.html" . }}
+
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}Acupuncture, holistic healing, wellness, pain cure, and traditional healing approaches at Zhenchi Kalpa.{{ end }}">
 </head>
 <body>
   <header>

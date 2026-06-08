@@ -6,12 +6,13 @@
 <link rel="canonical" href="https://zhenchikalpa.com/" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
  
-<title>{{ .Title }} | {{ .Site.Title }}</title>
-<!-- 
-<meta name="description" content="{{ .Summary }}">
--->
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+{{ if .IsHome }}
+<title>Acupuncture & Holistic Healing | Zhenchi Kalpa</title>
+{{ else }}
+<title>{{ .Title }} | Zhenchi Kalpa</title>
+{{ end }}
 
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}Acupuncture, holistic healing, wellness, pain cure, and traditional healing approaches at Zhenchi Kalpa.{{ end }}">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Summary }}">
 <meta property="og:type" content="website">
