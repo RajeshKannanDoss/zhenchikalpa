@@ -35,24 +35,24 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Cupping</title>
-				<link>http://localhost:1313/tags/cupping/</link>
-				<pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/cupping/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Natural Healing</title>
 				<link>http://localhost:1313/tags/natural-healing/</link>
-				<pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/tags/natural-healing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pain Relief</title>
 				<link>http://localhost:1313/tags/pain-relief/</link>
-				<pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/tags/pain-relief/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cupping</title>
+				<link>http://localhost:1313/tags/cupping/</link>
+				<pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/cupping/</guid>
 				<description></description>
 			</item>
 	</channel>
