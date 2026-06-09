@@ -162,6 +162,7 @@
                     
                     .blog-card h2{
                     margin-top:0;
+                    min-height: 4.5rem;
                     }
                     
                     .blog-card h2 a{
@@ -176,6 +177,15 @@
                     .blog-meta{
                     color:#777;
                     font-size:14px;
+                    }
+
+                    .blog-card-content {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .blog-card h2 {
+                        min-height: 4.5rem;
                     }
                     
                     .read-more{

@@ -53,11 +53,9 @@
 
                     </p>
 
-                    <p>
-
-                        {{ .Summary }}
-
-                    </p>
+                   <p>
+                     {{ .Summary | truncate 150 }}
+                     </p>
 
                     <a class="read-more" href="{{ .RelPermalink }}">
 
