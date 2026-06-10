@@ -326,7 +326,7 @@ iframe{
 @media (max-width:768px){
 
     .container{
-        width:95%;
+        width:100%;
         padding:0 15px;
     }
 
@@ -476,4 +476,9 @@ body{
 
 main{
     flex:1;
+}
+
+.practitioner,
+.why-us{
+    text-align:center;
 }
