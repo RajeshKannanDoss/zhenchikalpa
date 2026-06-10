@@ -1,19 +1,41 @@
-{{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+{{ define "main" }}
+<main>
+<div class="container">
+
+<h1>Our Practitioners</h1>
+
+<div class="practitioner-list">
 
 {{ range .Pages }}
 
-<div>
-  <h2>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h2>
+<div class="practitioner-card">
 
-  <p>{{ .Params.designation }}</p>
+<h2>
+<a href="{{ .RelPermalink }}">
+{{ .Title }}
+</a>
+</h2>
 
-  <p>{{ .Params.experience }} years experience</p>
+<p>
+<strong>{{ .Params.position }}</strong>
+</p>
+
+<p>
+{{ .Params.experience }} years experience
+</p>
+
+<a class="btn" href="{{ .RelPermalink }}">
+View Profile
+</a>
+
 </div>
 
 {{ end }}
 
+</div>
+
+</div>
+</main>
 {{ end }}
+

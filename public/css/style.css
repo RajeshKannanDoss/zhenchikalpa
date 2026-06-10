@@ -40,11 +40,9 @@ iframe{
     height:auto;
 }
 
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:0 auto;
-    padding:0 20px;
+..container{
+    width:min(1200px,92%);
+    margin-inline:auto;
 }
 
 /* =========================
@@ -162,7 +160,7 @@ iframe{
    Why Us
 ========================= */
 .why-us{
-    max-width:1200px;
+    max-width:1000px;
     margin:0 auto;
     padding:60px 20px;
     text-align:center;
@@ -379,4 +377,103 @@ iframe{
         right:10px;
         bottom:10px;
     }
+}
+
+.practitioner-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin:40px 0;
+}
+
+.practitioner-card{
+    background:#fff;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+    transition:.3s ease;
+}
+
+.practitioner-card:hover{
+    transform:translateY(-4px);
+}
+
+.practitioner-card h2,
+.practitioner-card h3{
+    margin-top:0;
+    color:#1d4d44;
+}
+
+.service-card{
+    background:#fff;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+    transition:.3s ease;
+}
+
+.service-card:hover{
+    transform:translateY(-4px);
+}
+
+.practitioner,
+.why-us,
+.blog-section,
+.contact-page{
+    width:min(1200px,92%);
+    margin-inline:auto;
+}
+
+
+.practitioner-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin:40px 0;
+}
+
+.practitioner-card{
+    width:100%;
+    max-width:450px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.practitioner-card h2{
+    margin-top:0;
+}
+
+.practitioner-card .btn{
+    margin-top:15px;
+}
+
+.practitioner .container{
+    max-width:1000px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.practitioner{
+    padding:80px 0;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+main{
+    flex:1;
+}
+
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+main{
+    flex:1;
 }
