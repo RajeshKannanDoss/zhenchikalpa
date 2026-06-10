@@ -44,6 +44,10 @@ At Zhenchi Kalpa Acupuncture Clinic, we believe in treating the individual, not 
 
 ## Learn More
 
+   Interested in learning more?
+
+Book a consultation with Rajesh Kannan Doss.
+
 - [Meet Your Practitioner](/practitioners/rajesh-kannan-doss/)
 - [Our Services](/services/)
 - [Contact Us](/contact/)

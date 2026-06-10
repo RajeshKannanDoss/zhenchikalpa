@@ -16,7 +16,7 @@ specialties:
 
 - Acupuncture
 - Herbal Medicine
-- Pain Management
+- Pain cure / NO MANAGEMENT
 - Digestive Disorders
 - Women's Health
 - Fertility Support
@@ -49,9 +49,14 @@ Your approach to diagnosis and treatment.
 
 ## Conditions Commonly Treated
 
+- Fever
 - Back Pain
 - Sciatica
 - Migraine
 - Digestive Disorders
 - Women's Health Concerns
 - Fertility Support
+
+## Meet Your Practitioner
+- [Our Services](/services/)
+- [Contact Us](/contact/)
