@@ -30,16 +30,21 @@ url = "/services/"
 weight = 3
 
 [[menu.main]]
+name = "Conditions"
+url = "/conditions/"
+weight = 4
+
+[[menu.main]]
 name = "Blog"
 url = "/blog/"
-weight = 4
+weight = 5
 
 
 
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 5
+weight = 6
 
 
 [pagination]
@@ -56,7 +61,5 @@ enableRobotsTXT = true
 [taxonomies]
 tag = "tags"
 category = "categories"
-
-
 specialty = "specialties"
 language = "languages"

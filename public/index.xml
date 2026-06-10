@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Fever</title>
+				<link>http://localhost:1313/conditions/fever/</link>
+				<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/conditions/fever/</guid>
+				<description>&lt;h1 id=&#34;fever&#34;&gt;Fever&lt;/h1&gt;&#xA;&lt;p&gt;Fever is one of the most common reasons people seek healthcare. While it can be uncomfortable, fever is often regarded as part of the body&amp;rsquo;s response to illness.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-fever&#34;&gt;What Is Fever?&lt;/h2&gt;&#xA;&lt;p&gt;Fever refers to an elevation in body temperature above the normal range. It may occur in response to infections, inflammatory conditions, or other physiological processes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;common-symptoms&#34;&gt;Common Symptoms&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Increased body temperature&lt;/li&gt;&#xA;&lt;li&gt;Chills&lt;/li&gt;&#xA;&lt;li&gt;Fatigue&lt;/li&gt;&#xA;&lt;li&gt;Sweating&lt;/li&gt;&#xA;&lt;li&gt;Body aches&lt;/li&gt;&#xA;&lt;li&gt;Reduced appetite&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Viral infections&lt;/li&gt;&#xA;&lt;li&gt;Bacterial infections&lt;/li&gt;&#xA;&lt;li&gt;Inflammatory conditions&lt;/li&gt;&#xA;&lt;li&gt;Reactions to medications&lt;/li&gt;&#xA;&lt;li&gt;Other medical conditions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;individualized-assessment&#34;&gt;Individualized Assessment&lt;/h2&gt;&#xA;&lt;p&gt;Every person experiences illness differently. At Zhenchi Kalpa Acupuncture Clinic, each patient is assessed individually, taking into account symptoms, overall health, and personal circumstances.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title></title>
 				<link>http://localhost:1313/services/</link>

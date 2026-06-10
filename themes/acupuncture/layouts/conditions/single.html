@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="container">
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Params.featured_image }}
+<div class="post-featured-image">
+    <img src="{{ . }}" alt="{{ $.Title }}">
+</div>
+{{ end }}
+
+{{ .Content }}
+
+<hr>
+
+<div class="condition-cta">
+
+<h3>Questions About Your Health Concerns?</h3>
+
+<p>
+Contact Zhenchi Kalpa Acupuncture Clinic for more information.
+</p>
+
+<a href="/contact/" class="btn">
+Contact Us
+</a>
+
+</div>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Is fever always harmful?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Not necessarily. Fever is often part of the body's response to illness."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"When should I seek medical attention?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Seek professional medical care if symptoms are severe, persistent, or worsening."
+      }
+    }
+  ]
+}
+</script>
+
+{{ end }}

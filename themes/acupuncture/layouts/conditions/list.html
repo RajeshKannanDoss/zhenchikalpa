@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="container">
+
+<h1>{{ .Title }}</h1>
+
+<div class="conditions-grid">
+
+{{ range .Pages }}
+
+<div class="condition-card">
+
+{{ with .Params.featured_image }} <img src="{{ . }}" alt="{{ $.Title }}">
+{{ end }}
+
+<div class="condition-card-content">
+
+<h2>
+<a href="{{ .RelPermalink }}">
+{{ .Title }}
+</a>
+</h2>
+
+<p>{{ .Params.description }}</p>
+
+<a href="{{ .RelPermalink }}" class="btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+{{ end }}
+
+</div>
+
+</div>
+
+{{ end }}
