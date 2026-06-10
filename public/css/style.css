@@ -501,7 +501,7 @@ height:auto;
 }
 
 /* Mobile */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px){ }
 
 
 /* Container */
@@ -632,3 +632,32 @@ nav{
     }
     
 
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+/* Homepage Why Choose section */
+
+.why-us{
+    max-width:1200px;
+    margin:0 auto;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:2rem;
+    margin-top:2rem;
+}
+
+.feature{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    text-align:left;
+}
