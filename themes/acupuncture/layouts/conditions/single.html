@@ -2,6 +2,12 @@
 
 <div class="container">
 
+<nav class="breadcrumb">
+    <a href="/">Home</a> →
+    <a href="/conditions/">Conditions</a> →
+    {{ .Title }}
+</nav>
+
 <h1>{{ .Title }}</h1>
 
 {{ with .Params.featured_image }}

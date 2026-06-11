@@ -492,46 +492,44 @@ main{
 }
 
 
-/* Conditions */
+    /* Conditions */
 
-
-
-.conditions-grid{
-    display:flex;
-    flex-wrap:wrap;
-    gap:2rem;
-}
-
-
-    
-    .condition-card img{
-        width:100%;
-        height:180px;
-        object-fit:cover;
-        object-position:center;
+.conditions-intro{
+    max-width:800px;
+    margin-bottom:2rem;
     }
     
-    .condition-card-content{
-    padding:1.5rem;
+    .conditions-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(380px,420px));
+        gap:2rem;
     }
     
-    .condition-card h2{
-    margin-top:0;
-    }
-    
-    .condition-card .btn{
-    margin-top:1rem;
-    }
-    
-
     .condition-card{
         background:#fff;
         border-radius:16px;
         overflow:hidden;
         box-shadow:0 4px 20px rgba(0,0,0,.08);
-        transition:.3s ease;
+        max-width:420px;
     }
     
-    .condition-card:hover{
-        transform:translateY(-4px);
+    .blog-image img,
+    .condition-card img{
+        width:100%;
+        height:180px;
+        object-fit:cover;
+        display:block;
+    }
+    
+    .condition-card-content{
+        padding:1.5rem;
+    }
+    
+    .condition-card-content h2{
+        margin:0 0 1rem;
+        font-size:1.8rem;
+    }
+    
+    .condition-card-content p{
+        margin-bottom:1.5rem;
     }

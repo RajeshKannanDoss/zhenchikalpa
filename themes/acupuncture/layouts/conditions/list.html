@@ -2,7 +2,11 @@
 
 <div class="container">
 
-<h1>{{ .Title }}</h1>
+<h1>Conditions We Treat</h1>
+
+<p class="conditions-intro">
+Explore common health concerns and learn more about individualized care approaches at Zhenchi Kalpa Acupuncture Clinic.
+</p>
 
 <div class="conditions-grid">
 
@@ -10,7 +14,10 @@
 
 <div class="condition-card">
 
-{{ with .Params.featured_image }} <img src="{{ . }}" alt="{{ $.Title }}">
+{{ if .Params.featured_image }} <img
+ class="condition-thumb"
+ src="{{ .Params.featured_image }}"
+ alt="{{ .Title }}">
 {{ end }}
 
 <div class="condition-card-content">
