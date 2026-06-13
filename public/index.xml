@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Diabetic Foot Ulcers: Understanding Symptoms, Causes and Supportive Care</title>
+				<link>http://localhost:1313/conditions/diabetic-foot-ulcer/</link>
+				<pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/conditions/diabetic-foot-ulcer/</guid>
+				<description>&lt;h1 id=&#34;diabetic-foot-ulcers&#34;&gt;Diabetic Foot Ulcers&lt;/h1&gt;&#xA;&lt;p&gt;Diabetic foot ulcers are a common complication of diabetes that can affect mobility, comfort, and overall quality of life. Early recognition and appropriate management are important to reduce the risk of infection and other serious complications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-are-diabetic-foot-ulcers&#34;&gt;What Are Diabetic Foot Ulcers?&lt;/h2&gt;&#xA;&lt;p&gt;A diabetic foot ulcer is an open sore or wound that develops on the foot in individuals with diabetes. These ulcers often occur due to a combination of nerve damage (diabetic neuropathy), reduced circulation, pressure on the feet, and delayed wound healing.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Fever: Understanding Symptoms, Causes and Supportive Care</title>
 				<link>http://localhost:1313/conditions/fever/</link>
