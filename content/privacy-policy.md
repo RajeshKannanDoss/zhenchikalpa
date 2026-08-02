@@ -119,5 +119,5 @@ For questions, privacy requests, correction or deletion requests, or concerns re
 Maduranthagam – 603306  
 Tamil Nadu, India
 
-**Email:** zhenchikalpa@gmail.com  
+**Email:** info@zhenchikalpa.com  
 **Website:** zhenchikalpa.com
