@@ -4,6 +4,11 @@ general:
   - "/images/heroes/five-elements/earth.webp"
   - "/images/heroes/five-elements/metal.webp"
   - "/images/heroes/five-elements/water.webp"
+  - "/images/heroes/five-elements/wood-landscape.webp"
+  - "/images/heroes/five-elements/fire-landscape.webp"
+  - "/images/heroes/five-elements/earth-landscape.webp"
+  - "/images/heroes/five-elements/metal-landscape.webp"
+  - "/images/heroes/five-elements/water-landscape.webp"
 
 acupuncture: []
 pain: []
