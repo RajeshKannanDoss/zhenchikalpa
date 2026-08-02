@@ -1,21 +1,33 @@
 <footer class="site-footer">
-<div class="container footer-row">
 
-<div>
+<div class="container footer-contact-row">
+
+<div class="footer-item footer-name">
 {{ .Site.Params.clinicName }}
 </div>
 
-<div>
+<div class="footer-item footer-address">
+{{ .Site.Params.clinicAddress }},
+{{ .Site.Params.clinicCity }} – {{ .Site.Params.clinicPostalCode }},
+{{ .Site.Params.clinicState }}, {{ .Site.Params.clinicCountry }}
+</div>
+
+<div class="footer-item footer-phone">
+<a href="tel:{{ .Site.Params.phone | replaceRE "[^+0-9]" "" }}">
 {{ .Site.Params.phone }}
+</a>
 </div>
 
-<div>
+<div class="footer-item footer-email">
+<a href="mailto:{{ .Site.Params.email }}">
 {{ .Site.Params.email }}
-</div>
-
-<div>
-© {{ now.Year }}
+</a>
 </div>
 
 </div>
+
+<div class="footer-bottom">
+<p>&copy; {{ now.Format "2006" }} {{ .Site.Params.clinicName }}. All rights reserved.</p>
+</div>
+
 </footer>

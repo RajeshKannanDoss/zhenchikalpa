@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
- {{ partial "schema.html" . }}
+{{ partial "schema.html" . }}
 <meta charset="UTF-8">
-<link rel="canonical" href="https://zhenchikalpa.com/" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
- 
+<link rel="canonical" href="{{ .Permalink }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 {{ if .IsHome }}
+
 <title>Acupuncture & Holistic Healing | Zhenchi Kalpa</title>
 {{ else }}
 <title>{{ .Title }} | Zhenchi Kalpa</title>
@@ -19,28 +21,29 @@
 
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
 <!-- this is for google analytics-->
 
 {{ template "_internal/google_analytics.html" . }}
+
 <!-- this is for google search engine -->
 
 
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@type":"MedicalBusiness",
- "name":"{{ .Site.Params.clinicName }}",
- "address":{
-   "@type":"PostalAddress",
-   "addressLocality":"{{ .Site.Params.clinicCity }}",
-   "addressRegion":"{{ .Site.Params.clinicState }}",
-   "addressCountry":"{{ .Site.Params.clinicCountry }}"
- },
- "telephone":"{{ .Site.Params.phone }}"
+"@context":"https://schema.org",
+"@type":"MedicalBusiness",
+"name":"{{ .Site.Params.clinicName }}",
+"address":{
+"@type":"PostalAddress",
+"addressLocality":"{{ .Site.Params.clinicCity }}",
+"addressRegion":"{{ .Site.Params.clinicState }}",
+"addressCountry":"{{ .Site.Params.clinicCountry }}"
+},
+"telephone":"{{ .Site.Params.phone }}"
 }
-</script> 
+</script>
 
 </head>
 
@@ -54,6 +57,8 @@
 
 {{ partial "footer.html" . }}
 {{ partial "whatsapp.html" . }}
+
+<script src="{{ "js/main.js" | relURL }}" defer></script>
 
 </body>
 </html>

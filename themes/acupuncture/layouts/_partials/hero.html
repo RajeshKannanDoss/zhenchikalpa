@@ -1,0 +1,34 @@
+{{ $category := .Params.hero_category | default "general" }}
+{{ $heroes := .Site.Data.heroes }}
+{{ $pool := slice }}
+
+{{ with index $heroes $category }}
+{{ if gt (len .) 0 }}
+{{ $pool = . }}
+{{ end }}
+{{ end }}
+
+{{ if eq (len $pool) 0 }}
+{{ with $heroes.general }}
+{{ $pool = . }}
+{{ end }}
+{{ end }}
+
+<section class="hero" id="hero">
+{{ if gt (len $pool) 0 }}
+<div class="hero-images" style="background-image: url('{{ index $pool 0 }}');" data-hero-pool='{{ jsonify $pool }}'></div>
+<div class="hero-overlay">
+{{ else }}
+<div class="hero-images"></div>
+<div class="hero-overlay hero-overlay-solid">
+{{ end }}
+{{ if .IsHome }}
+<h1>Natural Healing Through Acupuncture</h1>
+<p class="tagline">Restore Balance, Relieve Pain, and Enhance Well-Being Naturally.</p>
+<a href="/contact/" class="btn">Book Appointment</a>
+{{ else }}
+<h1>{{ .Title }}</h1>
+{{ with .Params.description }}<p class="tagline">{{ . }}</p>{{ end }}
+{{ end }}
+</div>
+</section>

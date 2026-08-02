@@ -1,15 +1,17 @@
 baseURL = "https://zhenchikalpa.com/"
 languageCode = "en-us"
-title = "Zhenchi Kalpa Acupuncture"
+title = "ZhenChiKalpa Acupuncture"
 theme = "acupuncture"
-
+googleAnalytics = "G-XDQLFKF0CN"
+enableRobotsTXT = true
 
 [params]
-clinicName = "Zhenchi Kalpa Acupuncture Clinic"
+clinicName = "ZhenChiKalpa Acupuncture Clinic"
 clinicAddress = "25/4, First floor, Car Street"
 clinicCity = "Maduranthagam"
 clinicState = "Tamil Nadu"
 clinicCountry = "India"
+clinicPostalCode = "603306"
 phone = "+9190473 53999"
 whatsapp = "+919047353999"
 email = "info@zhenchikalpa.com"
@@ -39,24 +41,18 @@ name = "Blog"
 url = "/blog/"
 weight = 5
 
-
-
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
 weight = 6
 
+[[menu.main]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 7
 
 [pagination]
 pagerSize = 6
-
-
-
-
-googleAnalytics = "G-XDQLFKF0CN"
-
-enableRobotsTXT = true
-
 
 [taxonomies]
 tag = "tags"

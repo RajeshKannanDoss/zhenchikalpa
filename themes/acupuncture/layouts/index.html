@@ -1,99 +1,69 @@
 {{ define "main" }}
 
-<section class="hero">
-
-
-<div class="hero-overlay">
-
-    <h1>Natural Healing Through Acupuncture</h1>
-
-    <p class="tagline">
-        Restore Balance, Relieve Pain, and Enhance Well-Being Naturally.
-    </p>
-
-    <a href="/contact/" class="btn">
-        Book Appointment
-    </a>
-
-</div>
-
-</section>
-
+{{ partial "hero.html" . }}
 
 <section class="trust-bar">
-
 <div class="trust-item">✔ Natural Healing</div>
-
 <div class="trust-item">✔ Personalized Care</div>
-
 <div class="trust-item">✔ Pain cure/No Management</div>
-
 <div class="trust-item">✔ Stress Relief</div>
-
 </section>
 
-<div>
-<section class="practitioner">
-    <div class="container">
+<section class="practitioner section section-light">
+<div class="container">
 
-        <h2>Meet Your Practitioner</h2>
-  
-
+<h2 class="section-title">Meet Your Practitioner</h2>
 {{ range first 3 (where site.RegularPages "Section" "practitioners") }}
 
 <div class="practitioner-card">
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Params.designation }}</p>
+<h3>{{ .Title }}</h3>
+<p>{{ .Params.designation }}</p>
 
-    <a href="{{ .RelPermalink }}" class="btn">
-        View Profile
-    </a>
-</div>
+<a href="{{ .RelPermalink }}" class="btn">
+View Profile
+</a></div>
 
 {{ end }}
 
-        <p>
-            At Zhenchi Kalpa Acupuncture Clinic, we believe in treating the whole person, not just symptoms.
-        </p>
+<p>
+At Zhenchi Kalpa Acupuncture Clinic, we believe in treating the whole person, not just symptoms.
+</p>
 
-        <p>
-            Our approach combines traditional acupuncture principles with personalized care to support pain relief, stress reduction, and overall wellness.
-        </p>
+<p>
+Our approach combines traditional acupuncture principles with personalized care to support pain relief, stress reduction, and overall wellness.
+</p>
 
-        <p>
-            Every treatment plan is designed to help patients achieve long-term health naturally.
-        </p>
+<p>
+Every treatment plan is designed to help patients achieve long-term health naturally.
+</p>
 
-    </div>
-
-</section>
+</div></section>
 
 
-<section class="why-us">
+<section class="why-us section section-ivory">
+<div class="container">
 
-
-<h2>Why Choose Zhenchi Kalpa Acupuncture Clinic?</h2>
+<h2 class="section-title">Why Choose Zhenchi Kalpa Acupuncture Clinic?</h2>
 
 <div class="features">
 
-    <div class="feature">
-        <h3>Personalized Care</h3>
-        <p>Treatment plans tailored to your individual needs.</p>
-    </div>
-
-    <div class="feature">
-        <h3>Natural Healing</h3>
-        <p>Safe and holistic therapies that support long-term wellness.</p>
-    </div>
-
-    <div class="feature">
-        <h3>Experienced Practitioner</h3>
-        <p>Professional care focused on restoring balance and health.</p>
-    </div>
-
-
-
-</section>
+<div class="feature">
+<h3>Personalized Care</h3>
+<p>Treatment plans tailored to your individual needs.</p>
 </div>
+
+<div class="feature">
+<h3>Natural Healing</h3>
+<p>Safe and holistic therapies that support long-term wellness.</p>
+</div>
+
+<div class="feature">
+<h3>Experienced Practitioner</h3>
+<p>Professional care focused on restoring balance and health.</p>
+</div>
+
+</div>
+
+</div></section>
 
 {{ end }}

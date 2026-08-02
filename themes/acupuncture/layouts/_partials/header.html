@@ -1,16 +1,19 @@
+
 <header class="site-header">
+<div class="container header-container">
 
-<link rel="canonical" href="{{ .Permalink }}">
-<div class="container header-flex">
-
-<div class="logo">
+<div class="brand logo">
 <a href="/">
 {{ .Site.Params.clinicName }}
 </a>
 </div>
 
-<nav>
-<ul class="nav-menu">
+<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+<span class="hamburger"></span>
+</button>
+
+<nav class="main-nav" id="mainNav">
+<ul class="nav-menu main-nav-list">
 
 {{ range .Site.Menus.main }}
 
@@ -26,5 +29,4 @@
 </nav>
 
 </div>
-
 </header>

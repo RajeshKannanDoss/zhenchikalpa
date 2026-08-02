@@ -1,26 +1,32 @@
 {{ define "main" }}
 
-<div class="container">
-
+<div class="container page-header">
 <h1>Conditions We Treat</h1>
-
-<p class="conditions-intro">
+<p class="page-description">
 Explore common health concerns and learn more about individualized care approaches at Zhenchi Kalpa Acupuncture Clinic.
 </p>
+</div>
 
-<div class="conditions-grid">
+<section class="section">
+<div class="container">
+<div class="card-grid">
 
 {{ range .Pages }}
 
-<div class="condition-card">
+<div class="card condition-card">
 
-{{ if .Params.featured_image }} <img
- class="condition-thumb"
- src="{{ .Params.featured_image }}"
- alt="{{ .Title }}">
+{{ if .Params.featured_image }}
+
+<div class="card-image">
+<img class="condition-thumb" src="{{ .Params.featured_image }}" alt="{{ .Title }}" loading="lazy">
+</div>
+{{ else }}
+<div class="card-image card-image-fallback">
+<span>No Image</span>
+</div>
 {{ end }}
 
-<div class="condition-card-content">
+<div class="card-body condition-card-content">
 
 <h2>
 <a href="{{ .RelPermalink }}">
@@ -30,8 +36,8 @@ Explore common health concerns and learn more about individualized care approach
 
 <p>{{ .Params.description }}</p>
 
-<a href="{{ .RelPermalink }}" class="btn">
-Read More
+<a href="{{ .RelPermalink }}" class="link-arrow">
+Read More →
 </a>
 
 </div>
@@ -41,7 +47,7 @@ Read More
 {{ end }}
 
 </div>
-
 </div>
+</section>
 
 {{ end }}

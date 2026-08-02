@@ -1,93 +1,60 @@
 {{ define "main" }}
 
+<article class="article-container">
+
 <nav class="breadcrumbs">
-
-
-<a href="/">Home</a>
-
-/
-
-<a href="/blog/">Blog</a>
-
-/
-
-{{ .Title }}
-
-
+<a href="/">Home</a> / <a href="/blog/">Blog</a> / {{ .Title }}
 </nav>
 
-<article class="blog-post">
-
-
+<header class="article-header">
 <h1>{{ .Title }}</h1>
 
+{{ $post := . }}
 {{ with .Resources.GetMatch "cover.*" }}
-
-    {{ $hero := .Resize "1200x" }}
-
-    <div class="post-featured-image">
-
-        <img
-            src="{{ $hero.RelPermalink }}"
-            alt="{{ $.Title }}">
-
-    </div>
-
+{{ $hero := .Resize "1200x" }}
+<div class="article-featured-image">
+<img src="{{ $hero.RelPermalink }}" alt="{{ $post.Title }}">
+</div>
 {{ end }}
 
 <p class="blog-meta">
-
-    {{ .Date.Format "January 2, 2006" }}
-
-    
-    
-    {{ .ReadingTime }} min read
-
+{{ .Date.Format "January 2, 2006" }} | {{ .ReadingTime }} min read
 </p>
+</header>
 
 {{ if gt .WordCount 500 }}
 
 <div class="toc">
-
-    <h3>Contents</h3>
-
-    {{ .TableOfContents }}
-
+<h3>Contents</h3>
+{{ .TableOfContents }}
 </div>
-
 {{ end }}
 
+<div class="article-content">
 {{ .Content }}
-
+</div>
 
 </article>
 
 <hr>
 
+<div class="article-related">
 <h3>Related Articles</h3>
-
 <ul class="related-posts">
 
-{{ range first 5 (where .Site.RegularPages "Section" "blog") }}
-
-
-{{ if ne .Permalink $.Permalink }}
+{{ $related := where .Site.RegularPages "Section" "blog" }}
+{{ $related = where $related "Permalink" "ne" .Permalink }}
+{{ range first 3 $related }}
 
 <li>
-
-    <a href="{{ .RelPermalink }}">
-
-        {{ .Title }}
-
-    </a>
-
+<a href="{{ .RelPermalink }}">
+{{ .Title }}
+</a>
 </li>
 
 {{ end }}
 
-
-{{ end }}
-
 </ul>
+</div>
 
 {{ end }}
