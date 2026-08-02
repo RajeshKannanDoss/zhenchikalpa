@@ -123,6 +123,15 @@ background-size: cover;
 background-position: center;
 z-index: 0;
 }
+
+.hero-home {
+aspect-ratio: 16 / 9;
+min-height: 0;
+}
+
+.hero-home .hero-overlay {
+display: none;
+}
 .hero-overlay{
 position: relative;
 z-index: 1;
@@ -497,6 +506,11 @@ justify-content:center;
 .hero{
 min-height:auto;
 padding:60px 15px;
+}
+
+.hero-home{
+min-height:0;
+padding:0;
 }
 
 .hero-overlay{

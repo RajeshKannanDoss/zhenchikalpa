@@ -1,5 +1,9 @@
 general:
-  - "/images/heroes/general/hero-bg.jpg"
+  - "/images/heroes/five-elements/wood.webp"
+  - "/images/heroes/five-elements/fire.webp"
+  - "/images/heroes/five-elements/earth.webp"
+  - "/images/heroes/five-elements/metal.webp"
+  - "/images/heroes/five-elements/water.webp"
 
 acupuncture: []
 pain: []

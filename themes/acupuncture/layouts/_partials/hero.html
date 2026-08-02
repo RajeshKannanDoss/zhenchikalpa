@@ -14,7 +14,7 @@
 {{ end }}
 {{ end }}
 
-<section class="hero" id="hero">
+<section class="hero{{ if .IsHome }} hero-home{{ end }}" id="hero">
 {{ if gt (len $pool) 0 }}
 <div class="hero-images" style="background-image: url('{{ index $pool 0 }}');" data-hero-pool='{{ jsonify $pool }}'></div>
 <div class="hero-overlay">
