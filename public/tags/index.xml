@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on ZhenChiKalpa Acupuncture</title>
-		<link>https://zhenchikalpa.com/tags/</link>
+		<link>http://localhost:1313/tags/</link>
 		<description>Recent content in Tags on ZhenChiKalpa Acupuncture</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,56 +10,77 @@
 		
 		
 		
-			<lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 17 Sep 2026 10:15:00 +0530</lastBuildDate>
 		
-			<atom:link href="https://zhenchikalpa.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Acupuncture</title>
-				<link>https://zhenchikalpa.com/tags/acupuncture/</link>
-				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/acupuncture/</guid>
+				<link>http://localhost:1313/tags/acupuncture/</link>
+				<pubDate>Thu, 17 Sep 2026 10:15:00 +0530</pubDate>
+				<guid>http://localhost:1313/tags/acupuncture/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ankylosing Spondylitis</title>
+				<link>http://localhost:1313/tags/ankylosing-spondylitis/</link>
+				<pubDate>Thu, 17 Sep 2026 10:15:00 +0530</pubDate>
+				<guid>http://localhost:1313/tags/ankylosing-spondylitis/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Autoimmune</title>
+				<link>http://localhost:1313/tags/autoimmune/</link>
+				<pubDate>Thu, 17 Sep 2026 10:15:00 +0530</pubDate>
+				<guid>http://localhost:1313/tags/autoimmune/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Spine Health</title>
+				<link>http://localhost:1313/tags/spine-health/</link>
+				<pubDate>Thu, 17 Sep 2026 10:15:00 +0530</pubDate>
+				<guid>http://localhost:1313/tags/spine-health/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Stress</title>
-				<link>https://zhenchikalpa.com/tags/stress/</link>
+				<link>http://localhost:1313/tags/stress/</link>
 				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/stress/</guid>
+				<guid>http://localhost:1313/tags/stress/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Wellness</title>
-				<link>https://zhenchikalpa.com/tags/wellness/</link>
+				<link>http://localhost:1313/tags/wellness/</link>
 				<pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/wellness/</guid>
+				<guid>http://localhost:1313/tags/wellness/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Fever</title>
-				<link>https://zhenchikalpa.com/tags/fever/</link>
+				<link>http://localhost:1313/tags/fever/</link>
 				<pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/fever/</guid>
+				<guid>http://localhost:1313/tags/fever/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Natural Healing</title>
-				<link>https://zhenchikalpa.com/tags/natural-healing/</link>
+				<link>http://localhost:1313/tags/natural-healing/</link>
 				<pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/natural-healing/</guid>
+				<guid>http://localhost:1313/tags/natural-healing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pain Relief</title>
-				<link>https://zhenchikalpa.com/tags/pain-relief/</link>
+				<link>http://localhost:1313/tags/pain-relief/</link>
 				<pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/pain-relief/</guid>
+				<guid>http://localhost:1313/tags/pain-relief/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cupping</title>
-				<link>https://zhenchikalpa.com/tags/cupping/</link>
+				<link>http://localhost:1313/tags/cupping/</link>
 				<pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/tags/cupping/</guid>
+				<guid>http://localhost:1313/tags/cupping/</guid>
 				<description></description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Specialties on ZhenChiKalpa Acupuncture</title>
-		<link>https://zhenchikalpa.com/specialties/</link>
+		<link>http://localhost:1313/specialties/</link>
 		<description>Recent content in Specialties on ZhenChiKalpa Acupuncture</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,61 +10,61 @@
 		
 		
 		
-			<atom:link href="https://zhenchikalpa.com/specialties/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/specialties/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Acupuncture</title>
-				<link>https://zhenchikalpa.com/specialties/acupuncture/</link>
+				<link>http://localhost:1313/specialties/acupuncture/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/acupuncture/</guid>
+				<guid>http://localhost:1313/specialties/acupuncture/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Digestive Disorders</title>
-				<link>https://zhenchikalpa.com/specialties/digestive-disorders/</link>
+				<link>http://localhost:1313/specialties/digestive-disorders/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/digestive-disorders/</guid>
+				<guid>http://localhost:1313/specialties/digestive-disorders/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Fertility Support</title>
-				<link>https://zhenchikalpa.com/specialties/fertility-support/</link>
+				<link>http://localhost:1313/specialties/fertility-support/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/fertility-support/</guid>
+				<guid>http://localhost:1313/specialties/fertility-support/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Herbal Medicine</title>
-				<link>https://zhenchikalpa.com/specialties/herbal-medicine/</link>
+				<link>http://localhost:1313/specialties/herbal-medicine/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/herbal-medicine/</guid>
+				<guid>http://localhost:1313/specialties/herbal-medicine/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Moxibustion</title>
-				<link>https://zhenchikalpa.com/specialties/moxibustion/</link>
+				<link>http://localhost:1313/specialties/moxibustion/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/moxibustion/</guid>
+				<guid>http://localhost:1313/specialties/moxibustion/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pain Cure / NO MANAGEMENT</title>
-				<link>https://zhenchikalpa.com/specialties/pain-cure-/-no-management/</link>
+				<link>http://localhost:1313/specialties/pain-cure-/-no-management/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/pain-cure-/-no-management/</guid>
+				<guid>http://localhost:1313/specialties/pain-cure-/-no-management/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tai Chi</title>
-				<link>https://zhenchikalpa.com/specialties/tai-chi/</link>
+				<link>http://localhost:1313/specialties/tai-chi/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/tai-chi/</guid>
+				<guid>http://localhost:1313/specialties/tai-chi/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Women&#39;s Health</title>
-				<link>https://zhenchikalpa.com/specialties/womens-health/</link>
+				<link>http://localhost:1313/specialties/womens-health/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://zhenchikalpa.com/specialties/womens-health/</guid>
+				<guid>http://localhost:1313/specialties/womens-health/</guid>
 				<description></description>
 			</item>
 	</channel>
